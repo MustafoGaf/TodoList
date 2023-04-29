@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+}
+.box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+}
+.header {
+  margin: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#inputList {
+  padding: 5px;
+  border: 1px solid blue;
+  width: 70%;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.BtnAdd {
+  width: 20%;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.BtnAdd:hover {
+  background-color: rgb(182, 123, 14);
+  box-shadow: 10px 10px rgb(156, 156, 156);
+}
+
+.list {
+  margin: 20px 20px 0 20px;
+  height: 20px;
+}
+.listDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(0, 0, 255, 0.192);
+  padding: 0 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.h1Poka {
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgb(196, 64, 3);
+}
+.divPosi {
+  position: absolute;
+  top: 20px;
+  width: 45%;
+  height: 140px;
+  text-align: center;
+  background-color: rgb(224, 61, 61);
+  padding: 15px;
+  border-radius: 10px;
+}
+.divPosi h3 {
+  margin-bottom: 50px;
+  font-family: monospace;
+  font-size: 20px;
+}
+.divPosi button {
+  width: 7rem;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+.divPosi span {
+  color: rgb(206, 215, 221);
+}
